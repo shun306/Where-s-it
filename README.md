@@ -1,0 +1,9 @@
+Where-s-it
+==========
+ただの大学のゲーム
+
+作成者:
+ALEX YAMAZAKI 
+FERNANDO MEDIN
+HELDER DOUTEL
+RODRIGO MELO
