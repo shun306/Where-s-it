@@ -43,8 +43,7 @@ bool ddt(int x1, int y1, int x2, int y2, int x3, int y3, int x, int y)//dentro d
 
 
 
-int brasil(int x,int y,int estado)
-{
+int brasil(int x,int y,int estado){
 switch (estado){
 case 1:
 if(ddt(116,248,65,224,64,262,x,y) ||ddt(64,262,115,247,92,263,x,y) ||ddt(64,239,66,225,54,248,x,y) ||
@@ -212,12 +211,11 @@ printf("Sao Paulo\n");
 return 26;
 }
 case 27:
-if(ddt(355,184,368,196,369,190,x,y) ||ddt(359,188,369,192,366,210,x,y) ||ddt(359,192,346,220,368,223,x,y) ||ddt(356,200,348,217,344,215,x,y) ||ddt(344,215,350,206,359,223,x,y) ||ddt(354,201,348,208,355,217,x,y) ||ddt(360,204,376,224,353,246,x,y) ||ddt(376,222,379,226,381,221,x,y) ||ddt(372,219,376,230,355,237,x,y) ||ddt(375,222,377,245,356,245,x,y) ||ddt(349,212,350,263,366,233,x,y) ||ddt(346,224,336,240,361,249,x,y) ||ddt(335,238,327,261,357,261,x,y) ||ddt(328,265,328,285,354,269,x,y) ||ddt(329,285,357,269,343,247,x,y) ||ddt(333,283,343,291,347,249,x,y) ||ddt(347,286,367,293,345,244,x,y) ||ddt(367,291,384,288,345,255,x,y) ||ddt(380,265,385,280,356,273,x,y) ||ddt(391,252,362,278,351,252,x,y) ||ddt(339,238,333,284,370,269,x,y) ||ddt(345,231,342,289,375,263,x,y) ||ddt(352,221,353,288,380,286,x,y) ||ddt(385,287,373,238,339,272,x,y) ||ddt(351,208,350,243,373,226,x,y) ||ddt(338,244,352,280,335,288,x,y))
-{
-printf("Tocantins\n");
-return 27;
-}
-}
+if(ddt(355,184,368,196,369,190,x,y) ||ddt(359,188,369,192,366,210,x,y) ||ddt(359,192,346,220,368,223,x,y) ||ddt(356,200,348,217,344,215,x,y) ||ddt(344,215,350,206,359,223,x,y) ||ddt(354,201,348,208,355,217,x,y) ||ddt(360,204,376,224,353,246,x,y) ||ddt(376,222,379,226,381,221,x,y) ||ddt(372,219,376,230,355,237,x,y) ||ddt(375,222,377,245,356,245,x,y) ||ddt(349,212,350,263,366,233,x,y) ||ddt(346,224,336,240,361,249,x,y) ||ddt(335,238,327,261,357,261,x,y) ||ddt(328,265,328,285,354,269,x,y) ||ddt(329,285,357,269,343,247,x,y) ||ddt(333,283,343,291,347,249,x,y) ||ddt(347,286,367,293,345,244,x,y) ||ddt(367,291,384,288,345,255,x,y) ||ddt(380,265,385,280,356,273,x,y) ||ddt(391,252,362,278,351,252,x,y) ||ddt(339,238,333,284,370,269,x,y) ||ddt(345,231,342,289,375,263,x,y) ||ddt(352,221,353,288,380,286,x,y) ||ddt(385,287,373,238,339,272,x,y) ||ddt(351,208,350,243,373,226,x,y) ||ddt(338,244,352,280,335,288,x,y)){
+				printf("Tocantins\n");
+			return 27;
+		}
+	}
 }
 
 
@@ -445,6 +443,131 @@ int bairros_ddt(int x,int y,int bai)
 	}
 }
 
+int americaddt(int x,int y, int pais){
+switch(pais){
+
+case 1:
+			if(ddt(161,445,178,379,146,442,x,y) ||ddt(141,458,174,258,181,253,x,y) ||ddt(199,295,182,256,170,344,x,y) ||ddt(178,341,189,323,181,290,x,y) ||ddt(176,292,167,347,174,343,x,y) ||ddt(145,440,148,411,168,363,x,y) ||(ddt(301,93,304,65,314,93,x,y) ||ddt(314,93,304,66,324,79,x,y) ||ddt(303,84,301,78,309,78,x,y))
+			{
+				printf("Guiana Francesa\n");  
+				return 1;
+			}
+
+
+case 2:
+
+                        if(ddt(301,92,304,84,280,65,x,y) ||ddt(279,65,304,66,302,77,x,y) ||ddt(281,96,300,92,280,66,x,y) ||ddt(279,72,279,86,274,81,x,y) ||ddt(273,79,273,73,282,69,x,y) ||ddt(288,95,290,73,282,67,x,y))
+
+			{
+				printf("Suriname\n");  
+				return 2;
+			}
+
+
+
+
+case 3:
+
+                        if(ddt(266,103,282,98,278,86,x,y) ||ddt(278,87,264,101,259,94,x,y) ||ddt(259,95,275,85,271,76,x,y) ||ddt(257,89,260,80,272,75,x,y) ||ddt(272,83,274,74,256,71,x,y) ||ddt(261,82,255,71,278,64,x,y) ||ddt(278,72,279,66,274,61,x,y) ||ddt(274,62,271,75,278,73,x,y) ||ddt(278,73,268,62,265,73,x,y) ||ddt(267,60,268,55,258,45,x,y) ||ddt(259,46,251,52,254,56,x,y) ||ddt(254,57,248,59,247,67,x,y) ||ddt(245,66,256,71,250,70,x,y) ||ddt(254,69,257,53,269,67,x,y) ||ddt(262,79,271,75,261,59,x,y) ||ddt(251,58,263,55,264,70,x,y) ||ddt(260,83,271,83,261,60,x,y) ||ddt(275,69,270,64,263,74,x,y))
+
+			{
+				printf("Guiana\n");  
+				return 3;
+			}
+
+
+
+case 4:
+
+                        if(ddt(230,94,207,106,195,87,x,y) ||ddt(196,88,225,94,219,78,x,y) ||ddt(219,77,197,84,197,63,x,y) ||ddt(195,76,203,46,218,80,x,y) ||ddt(219,78,233,81,253,72,x,y) ||ddt(252,72,246,65,218,77,x,y) ||ddt(246,66,257,46,244,46,x,y) ||ddt(163,21,154,32,152,39,x,y) ||ddt(152,38,158,26,164,42,x,y) ||ddt(159,53,154,40,170,33,x,y) ||ddt(159,52,166,57,188,37,x,y) ||ddt(168,57,183,55,162,28,x,y) ||ddt(164,25,183,22,187,28,x,y) ||ddt(189,25,193,42,150,38,x,y) ||ddt(175,23,170,53,219,49,x,y) ||ddt(223,73,240,52,210,38,x,y) ||ddt(171,23,228,30,224,63,x,y) ||ddt(173,38,193,60,239,49,x,y) ||ddt(195,63,184,62,168,51,x,y) ||ddt(205,27,231,25,257,45,x,y) ||ddt(257,46,229,27,198,49,x,y) ||ddt(225,72,239,53,206,37,x,y) ||ddt(183,32,185,56,219,43,x,y))
+
+			{
+				printf("Venezuela\n");  
+				return 4;
+			}
+
+
+case 5:
+			if(ddt(108,97,120,45,155,130,x,y) ||ddt(156,131,179,133,176,112,x,y) ||ddt(178,145,176,134,171,142,x,y) ||ddt(178,97,198,95,196,63,x,y) ||ddt(196,63,179,99,162,56,x,y) ||ddt(159,53,123,45,143,23,x,y) ||ddt(143,23,153,39,165,15,x,y) ||ddt(166,15,146,26,141,35,x,y) ||ddt(138,23,116,54,127,100,x,y) ||ddt(105,99,154,130,166,62,x,y) ||ddt(140,30,189,77,137,105,x,y))
+			{
+				printf("Colombia\n");  
+				return 5;
+			}
+
+
+case 6:
+			if(ddt(117,134,122,111,130,109,x,y) ||ddt(135,119,128,111,117,134,x,y) ||ddt(103,150,94,144,102,116,x,y) ||ddt(107,149,100,128,130,120,x,y) ||ddt(99,129,93,134,90,126,x,y) ||ddt(90,126,101,105,108,102,x,y) ||ddt(108,101,89,130,117,118,x,y) ||ddt(107,101,121,110,117,132,x,y) ||ddt(127,129,134,125,102,109,x,y))
+			{
+				printf("Equador\n");  
+				return 6;
+			}
+
+
+case 7:
+			if(ddt(176,257,185,244,181,231,x,y) ||ddt(182,230,188,210,182,202,x,y) ||ddt(182,202,173,261,127,224,x,y) ||ddt(127,221,172,200,172,188,x,y) ||ddt(172,188,123,214,90,159,x,y) ||ddt(170,204,130,146,91,141,x,y) ||ddt(104,151,93,142,86,148,x,y) ||ddt(91,162,87,149,104,151,x,y) ||ddt(104,151,113,136,138,118,x,y) ||ddt(136,114,151,128,146,146,x,y) ||ddt(176,132,152,134,172,144,x,y) ||ddt(170,146,156,150,143,130,x,y) ||ddt(155,152,149,171,128,148,x,y) ||ddt(135,126,155,143,131,166,x,y) ||ddt(109,154,139,170,137,130,x,y) ||ddt(102,165,137,219,135,170,x,y) ||ddt(129,226,177,249,179,204,x,y))
+			{
+				printf("Peru\n");  
+				return 7;
+			}
+
+
+case 8:
+			if(ddt(196,293,180,248,184,201,x,y) ||ddt(183,203,213,189,216,208,x,y) ||ddt(272,270,275,252,269,241,x,y) ||ddt(269,241,245,268,256,242,x,y) ||ddt(256,242,256,264,271,267,x,y) ||ddt(252,224,256,250,242,270,x,y) ||ddt(240,270,237,286,210,285,x,y) ||ddt(210,285,195,297,189,271,x,y) ||ddt(188,272,181,251,186,241,x,y) ||ddt(184,241,186,217,182,200,x,y) ||ddt(181,200,213,189,201,267,x,y) ||ddt(189,209,193,286,234,235,x,y) ||ddt(197,285,234,281,208,223,x,y) ||ddt(207,202,249,221,240,262,x,y) ||ddt(203,210,187,259,248,258,x,y) ||ddt(231,279,244,239,195,221,x,y) ||ddt(213,213,240,227,221,276,x,y) ||ddt(197,277,189,254,209,218,x,y) ||ddt(246,261,265,255,236,231,x,y) ||ddt(217,209,233,214,212,275,x,y))
+			{
+				printf("Bolivia\n");  
+				return 8;
+			}
+
+
+
+
+case 9:
+			if(ddt(180,254,194,294,172,332,x,y) ||ddt(172,260,182,254,189,328,x,y) ||ddt(198,296,181,267,188,314,x,y) ||ddt(173,260,169,328,188,327,x,y) ||ddt(188,326,187,287,176,278,x,y) ||ddt(172,361,180,338,172,325,x,y) ||ddt(171,330,147,413,169,418,x,y) ||ddt(169,417,178,383,169,355,x,y) ||ddt(161,443,148,442,147,434,x,y) ||ddt(147,434,170,419,153,401,x,y) ||ddt(155,402,164,405,177,385,x,y) ||ddt(177,386,152,407,165,346,x,y) ||ddt(150,422,153,406,144,412,x,y))
+			{
+				printf("Chile\n");  
+				return 9;
+			}
+
+
+case 10:
+			if(ddt(268,328,274,317,288,330,x,y) ||ddt(288,329,298,322,300,302,x,y) ||ddt(300,302,272,310,288,326,x,y) ||ddt(272,313,293,302,289,291,x,y) ||ddt(289,291,273,289,265,308,x,y) ||ddt(265,308,273,283,244,271,x,y) ||ddt(244,271,257,266,270,269,x,y) ||ddt(252,267,241,269,236,288,x,y) ||ddt(234,288,247,301,257,274,x,y) ||ddt(246,301,262,307,265,284,x,y) ||ddt(241,280,242,271,258,271,x,y) ||ddt(281,321,290,328,289,313,x,y) ||ddt(264,279,282,299,258,297,x,y))
+			{
+				printf("Paraguai\n");  
+				return 10;
+			}
+
+
+
+case 11:
+			if(ddt(279,351,309,372,307,384,x,y) ||ddt(307,382,301,389,281,387,x,y) ||ddt(281,387,272,386,270,378,x,y) ||ddt(270,377,275,355,299,375,x,y) ||ddt(277,357,277,383,301,375,x,y) ||ddt(285,386,305,382,291,363,x,y))
+			{
+				printf("Uruguai\n");  
+				return 11;
+			}
+
+
+
+case 12:
+			if(ddt(188,533,163,524,149,507,x,y) ||ddt(149,507,181,520,211,489,x,y) ||ddt(211,487,146,508,164,459,x,y) ||ddt(164,479,197,479,161,449,x,y) ||ddt(162,449,169,418,212,467,x,y) ||ddt(212,466,228,452,215,438,x,y) ||ddt(215,438,211,470,173,421,x,y) ||ddt(170,420,177,384,214,436,x,y) ||ddt(215,436,179,380,173,363,x,y) ||ddt(193,338,176,357,182,338,x,y) ||ddt(202,316,191,326,188,309,x,y) ||ddt(209,295,173,416,189,341,x,y) ||ddt(240,335,217,435,236,420,x,y) ||ddt(238,436,238,421,272,386,x,y) ||ddt(283,406,283,406,251,421,x,y) ||ddt(275,418,238,422,274,387,x,y) ||ddt(241,339,268,380,275,354,x,y) ||ddt(236,324,306,327,300,317,x,y) ||ddt(306,316,304,328,298,324,x,y) ||ddt(276,336,286,343,280,332,x,y) ||ddt(301,332,267,330,272,314,x,y) ||ddt(235,289,236,289,206,287,x,y) ||ddt(230,329,206,287,199,293,x,y) ||ddt(223,349,209,430,264,376,x,y) ||ddt(248,304,206,292,254,311,x,y) ||ddt(208,422,203,308,169,445,x,y) ||ddt(239,390,205,460,266,341,x,y))
+			{
+				printf("Argentina\n");  
+				return 12;
+			}
+
+
+
+
+case 13:
+			if(ddt(274,353,304,328,307,380,x,y) ||ddt(308,377,303,328,347,333,x,y) ||ddt(347,333,347,314,308,325,x,y) ||ddt(347,316,397,294,319,209,x,y) ||ddt(398,296,406,289,418,259,x,y) ||ddt(419,259,424,238,422,214,x,y) ||ddt(424,212,402,285,321,182,x,y) ||ddt(385,292,418,247,290,179,x,y) ||ddt(422,218,436,151,452,152,x,y) ||ddt(452,154,432,209,456,181,x,y) ||ddt(402,134,335,106,335,222,x,y) ||ddt(312,309,200,146,324,102,x,y) ||ddt(318,102,407,222,320,267,x,y) ||ddt(255,241,253,222,269,241,x,y) ||ddt(273,287,276,257,291,291,x,y) ||ddt(295,303,291,289,304,303,x,y) ||ddt(301,314,307,291,319,330,x,y) ||ddt(252,221,217,207,213,190,x,y) ||ddt(213,188,191,200,172,198,x,y) ||ddt(172,198,173,187,213,190,x,y) ||ddt(161,191,172,187,146,171,x,y) ||ddt(147,168,154,152,174,145,x,y) ||ddt(173,146,172,177,151,175,x,y) ||ddt(175,194,185,131,228,170,x,y) ||ddt(179,117,177,108,183,106,x,y) ||ddt(183,106,183,99,193,103,x,y) ||ddt(184,103,180,99,178,101,x,y) ||ddt(178,101,179,97,189,104,x,y) ||ddt(191,99,197,94,202,103,x,y) ||ddt(192,113,227,95,246,153,x,y) ||ddt(224,93,219,78,232,82,x,y) ||ddt(237,81,253,72,259,80,x,y) ||ddt(259,80,226,92,264,142,x,y) ||ddt(264,104,238,89,224,205,x,y) ||ddt(190,178,208,113,270,151,x,y) ||ddt(316,122,335,100,325,81,x,y) ||ddt(324,80,312,96,323,177,x,y) ||ddt(315,94,289,90,260,157,x,y) ||ddt(231,98,360,129,310,237,x,y) ||ddt(204,162,299,285,389,190,x,y) ||ddt(331,241,346,227,325,224,x,y))
+			{
+				printf("Brasil\n");  
+				return 13;
+			}
+
+}
+
+
+}
 
 
 
@@ -514,9 +637,17 @@ void bairros(ALLEGRO_EVENT_QUEUE *fila_eventos, ALLEGRO_EVENT evento){
 			al_draw_bitmap(folha, 400, 450, 0);
 			al_draw_bitmap(tax_1, 410, 420, 0);
 			al_draw_bitmap(tax_1, 760, 420, 0);
+			}
+
+			al_wait_for_event(fila_eventos, &evento);
+			if(i==0){
+				bairros = randombairro();
+				i=1;
+			}
 			if(score < 2){
 				al_draw_textf(font, al_map_rgb(0, 0, 0), 490, 450, 0, "%d Ponto", score);
-			}else{
+			}
+			else{
 				al_draw_textf(font, al_map_rgb(0, 0, 0), 490, 450, 0, "%d Pontos", score);
 			}
 			switch(bairros){
@@ -646,107 +777,10 @@ void bairros(ALLEGRO_EVENT_QUEUE *fila_eventos, ALLEGRO_EVENT evento){
 					break;
 			}
 			al_flip_display();
-		}
-		al_wait_for_event(fila_eventos, &evento);
-		if(i==0){
-			bairros = randombairro();
-			i=1;
-		}
-		switch(bairros){
-			case 1:
-				printf("Parelheiros\n");
-				break;
-			case 2:
-				printf("Socorro\n");
-				break;
-			case 3:
-				printf("M Boi Mirim\n");
-				break;
-			case 4:
-				printf("Campo Limpo\n");
-				break;
-			case 5:
-				printf("Cidade Ademar\n");
-				break;
-			case 6:
-				printf("Santo Amaro\n");
-				break;
-			case 7:
-				printf("Jabaquara\n");
-				break;
-			case 8:
-				printf("Butanta\n");
-				break;
-			case 9:
-				printf("Ipiranga\n");
-				break;
-			case 10:
-				printf("Vila Mariana\n");
-				break;
-			case 11:
-				printf("Pinheiros\n");
-				break;
-			case 12:
-				printf("Lapa\n");
-				break;
-			case 13:
-				printf("Se\n");
-				break;
-			case 14:
-				printf("Pirituba\n");
-				break;
-			case 15:
-				printf("Anhanguera\n");
-				break;
-			case 16:
-				printf("Freguesia do O\n");
-				break;
-			case 17:
-				printf("Casa Verde\n");
-				break;
-			case 18:
-				printf("Santana\n");
-				break;
-			case 19:
-				printf("Tremembe\n");
-				break;
-			case 20:
-				printf("Vila Maria\n");
-				break;
-			case 21:
-				printf("Penha\n");
-				break;
-			case 22:
-				printf("Ermelino Matarazzo\n");
-				break;
-			case 23:
-				printf("Sao Miguel\n");
-				break;
-			case 24:
-				printf("Itaquera\n");
-				break;
-			case 25:
-				printf("Itaim\n");
-				break;
-			case 26:
-				printf("Guaianases\n");
-				break;
-			case 27:
-				printf("Cidade Tiradentes\n");
-				break;
-			case 28:
-				printf("Sao Matheus\n");
-				break;
-			case 29:
-				printf("Vila Prudente\n");
-				break;
-			case 30:
-				printf("Aricanduva\n");
-				break;
-			case 31:
-				printf("Mooca\n");
-				break;
-		}
+		
+
+		
+		
 		printf("%d\n", bairros);
 
 		if(evento.type == ALLEGRO_EVENT_MOUSE_BUTTON_DOWN){
@@ -1494,6 +1528,255 @@ void jogaar(ALLEGRO_EVENT_QUEUE *fila_eventos, ALLEGRO_EVENT evento){
 	al_destroy_bitmap(mapa_br);
 	al_destroy_bitmap(fundo_jogo);
 	bairros(fila_eventos, evento);
+	return;
+
+}
+
+
+void america(ALLEGRO_EVENT_QUEUE *fila_eventos, ALLEGRO_EVENT evento){
+	printf("abriu\n");
+
+	int flag = 0,x,y,pais=0, resposta=-1,i=0,lixo=NULL, score=0;
+	ALLEGRO_BITMAP *fundo_jogo = NULL, *americam = NULL, *an = NULL;
+	ALLEGRO_BITMAP *guif=NULL, *su=NULL, *gui=NULL, *ve=NULL, *co=NULL, *eq=NULL, *pe=NULL, *bo=NULL, *ch=NULL, *pa=NULL, *ur=NULL, *ar=NULL, *br=NULL;
+	ALLEGRO_FONT *font=NULL;
+	ALLEGRO_BITMAP *tax_1 = NULL, *sombra_folha = NULL, *folha = NULL;
+
+	fundo_jogo = al_load_bitmap("imagens/fundo_jogo.png");
+	americam = al_load_bitmap("imagens/america.png");
+
+	font = al_load_font("fonts/SchoolNotes.ttf", 70, 0);
+	tax_1 = al_load_bitmap("imagens/tachinha2.png");
+	sombra_folha = al_load_bitmap("imagens/sombra_papel.png");
+	folha = al_load_bitmap("imagens/folha_lindinha.png");
+
+	
+	guif = al_load_bitmap("imagens/america_guif.png");
+	su = al_load_bitmap("imagens/america_suriname.png");
+	gui = al_load_bitmap("imagens/america_gui.png");
+	ve = al_load_bitmap("imagens/america_venezuela.png");
+	co = al_load_bitmap("imagens/america_colombia.png");
+	eq = al_load_bitmap("imagens/america_equador.png");
+	pe = al_load_bitmap("imagens/america_peru.png");
+	bo = al_load_bitmap("imagens/america_bolivia.png");
+	ch = al_load_bitmap("imagens/america_chile.png");
+	pa = al_load_bitmap("imagens/america_paraguai.png");
+	ur = al_load_bitmap("imagens/america_uruguai.png");
+	ar = al_load_bitmap("imagens/america_argentina.png");
+	br = al_load_bitmap("imagens/america_brasil.png");
+	
+
+	while(flag == 0){
+		if(ALLEGRO_EVENT_MOUSE_BUTTON_UP){
+			al_draw_bitmap(fundo_jogo, 0, 0, 0);
+			al_draw_bitmap(americam, 0, 0, 0);
+			al_draw_bitmap(sombra_folha, 395, 445, 0);
+			al_draw_bitmap(folha, 400, 450, 0);
+			al_draw_bitmap(tax_1, 410, 420, 0);
+			al_draw_bitmap(tax_1, 760, 420, 0);
+		}
+			if(score < 2){
+				al_draw_textf(font, al_map_rgb(0, 0, 0), 490, 450, 0, "%d Ponto", score);
+			}else{
+				al_draw_textf(font, al_map_rgb(0, 0, 0), 490, 450, 0, "%d Pontos", score);
+			}
+			switch(pais){
+				case 1:
+					printf("Guiana Francesa\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Guiana Francesa");
+					break;
+				case 2:
+					printf("Suriname\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Suriname");
+					break;
+				case 3:
+					printf("Guiana\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Guiana");
+					break;
+				case 4:
+					printf("Venezuela\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Venezuela");
+					break;
+				case 5:
+					printf("Colombia\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Colombia");
+					break;
+				case 6:
+					printf("Equador\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Equador");
+					break;
+				case 7:
+					printf("Peru\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Peru");
+					break;
+				case 8:
+					printf("Bolivia\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Bolivia");
+					break;
+				case 9:
+					printf("Chile\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Chile");
+					break;
+				case 10:
+					printf("Paraguai\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Paraguai");
+					break;
+				case 11:
+					printf("Uruguai\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Uruguai");
+					break;
+				case 12:
+					printf("Argentina\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Argentina");
+					break;
+				case 13:
+					printf("Brasil\n");
+					al_draw_text(font, al_map_rgb(0, 0, 0), 490, 500, 0, "Brasil");
+					break;
+
+			}
+			al_flip_display();
+
+
+		if(i==0){
+			pais = randompais();
+			i=1;
+		}
+
+		
+		printf("%d\n", pais);
+
+		if(evento.type == ALLEGRO_EVENT_MOUSE_BUTTON_DOWN){
+			printf("clicou\n");
+			printf("%d %d\n", evento.mouse.x, evento.mouse.y);
+			resposta = americaddt(evento.mouse.x, evento.mouse.y, pais);
+			printf("%d\n", resposta);
+		}
+		if(resposta == pais){
+			printf("acertou\n");
+			score++;
+			if(score==5){
+				break;
+			}
+		}
+		if(resposta != pais && resposta != -1){
+			printf("perdeu\n");
+			resposta = 100;
+			flag=1;
+			al_destroy_bitmap(americam);
+			al_destroy_bitmap(fundo_jogo);
+
+		}
+		while(resposta==1){
+			al_draw_bitmap(guif, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(guif);
+		}
+		while(resposta==2){
+			al_draw_bitmap(su, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(su);
+		}
+		while(resposta==3){
+			al_draw_bitmap(gui, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(gui);
+		}
+		while(resposta==4){
+			al_draw_bitmap(ve, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(ve);
+		}
+
+		while(resposta==5){
+			al_draw_bitmap(co, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(co);
+		}
+		while(resposta==6){
+			al_draw_bitmap(eq, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(eq);
+		}
+		while(resposta==7){
+			al_draw_bitmap(pe, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(pe);
+		}
+		while(resposta==8){
+			al_draw_bitmap(bo, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(bo);
+		}
+		while(resposta==9){
+			al_draw_bitmap(ch, 0 , 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(ch);
+		}
+		while(resposta==10){
+			al_draw_bitmap(pa, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(pa);
+		}
+
+		while(resposta==11){ 
+			al_draw_bitmap(ur, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(ur);
+		}
+		while(resposta==12){
+			al_draw_bitmap(ar, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(ar);
+		}
+		while(resposta==13){
+			al_draw_bitmap(br, 0, 0, 0);
+			al_flip_display();  
+			al_rest(1.5);
+			resposta=-1;
+			i=0;
+			al_destroy_bitmap(br);
+		}
+	printf("finalizou função\n");
+	al_destroy_bitmap(americam);
+	al_destroy_bitmap(fundo_jogo);
+	jogaar(fila_eventos, evento);
 	return;
 
 }

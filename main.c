@@ -18,7 +18,7 @@ void fadein(ALLEGRO_BITMAP *imagem, int vel);
 
 ALLEGRO_BITMAP *fundo_jogo = NULL, *mapa_br = NULL;	
 ALLEGRO_DISPLAY *janela = NULL;
-ALLEGRO_FONT *font = NULL;
+ALLEGRO_FONT *font=NULL;
 
 int main(void){
 
@@ -147,7 +147,7 @@ int main(void){
 				printf("vaiabrir\n");
 				al_destroy_bitmap(botao_jogar_press);
 				if(jogar == 1)
-					jogaar(fila_eventos, evento);
+					america(fila_eventos, evento);
 				
 			}
 		}
